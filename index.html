@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Eugene's Portfolio</title>
+</head>
+<body>
+ <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+        <div class="container">
+            <!-- navbar-brand is the title inside the Navbar -->
+            <a href="#" class="navbar-brand">
+                <!-- span will place the text next to the <a>link in the navbar -->
+                <span class="fw-bold text-light"><i class="bi bi-laptop-fill"></i> THE DURUMA DEV</span>
+            </a>
+            <!-- Toogle button for mobile screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <!-- navbar links -->
+            <!-- collapse will invoke the toggle function as stated above in button class
+                 navbar-collapse styles the collapse class
+            -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav text-light">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Let's Get To Work</a>
+                  </li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+ </header>
+    <main>
+        <!-- ABOUT ME  -->
+        <section id="about" class="p-5 bg-dark text-light">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <!-- About me -->
+                    <div class="col-md-6 text-md-start my-5">
+                        <div class="justify-content-center">
+                            <h1>
+                                <div>
+                                    Eugene Kwaka
+                                </div>
+                                <div class="lead display-5 text-warning">
+                                    Web Developer | Technical Writer
+                                </div>
+                            </h1>
+                            <p class="lead my-2">I am a Python language and Django framework enthusiast with a knack for getting my hands dirty building projects that offer solutions to problems in society.</p>
+                            <p class="lead my-2">I love everything about technology and I occassionally write about different topics with an aim to educate and share my ideas.</p>
+                            <a href="#contact" class="btn btn-secondary btn-lg">Let's Get To Work</a>
+                        </div>
+                    </div>
+
+                    <!-- My image -->
+                    <div class="col-md-6 text-center my-5">
+                        <img id="my-image" src="assets/linkedinprofilepic.jpg" alt="" class="img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MY SKILLS -->
+        <section id="skills" class="mt-5">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="fw-bold">My Skills</h2>
+                    <p class="lead text-muted">These are tools and technologies I use when building projects</p>
+                </div>
+
+                <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 my-3">
+                            <img src="assets/icons8-python-48.png" alt=""><span> Python</span>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 my-3">
+                            <img src="assets/icons8-django-48.png" alt=""><span> Django</span>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 my-3">
+                            <img src="assets/icons8-bootstrap-48.png" alt=""><span> Bootstrap</span>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 my-3">
+                            <img src="assets/icons8-postgresql-48.png" alt=""><span> Postgresql</span>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 my-3">
+                            <img src="assets/icons8-git-48.png" alt=""><span> Git</span>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+
+        <section id="portfolio" class=" bg-dark text-light" >
+            <div class="container">
+                <div class="text-center mt-5">
+                    <h2 class="fw-bold">
+                        Projects I've Worked On
+                    </h2>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card text-dark">
+                            <img class="card-img-top" src="assets/kwaledicece.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">KWALE DICECE COLLEGE STUDENT PORTAL</h5>
+                              <p class="card-text">This is a Student portal where the students can track their Fee status, Exam results and Certificate Status.</p>
+                              <a href="#" class="btn btn-dark">Live Preview</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
