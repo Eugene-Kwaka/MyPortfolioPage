@@ -77,9 +77,9 @@
         </section>
 
         <!-- MY SKILLS -->
-        <section id="skills" class="mt-5">
-            <div class="container">
-                <div class="text-center">
+        <section id="skills" class="bg-light">
+            <div class="container pb-5">
+                <div class="text-center pt-3">
                     <h2 class="fw-bold">My Skills</h2>
                     <p class="lead text-muted">These are tools and technologies I use when building projects</p>
                 </div>
@@ -107,21 +107,61 @@
         <!-- PORTFOLIO -->
 
         <section id="portfolio" class=" bg-dark text-light" >
-            <div class="container">
-                <div class="text-center mt-5">
+            <div class="container py-3">
+                <div class="text-center">
                     <h2 class="fw-bold">
                         Projects I've Worked On
                     </h2>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row g-4 my-2">
                     <div class="col-lg-4 col-md-4">
                         <div class="card text-dark">
                             <img class="card-img-top" src="assets/kwaledicece.png" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">KWALE DICECE COLLEGE STUDENT PORTAL</h5>
                               <p class="card-text">This is a Student portal where the students can track their Fee status, Exam results and Certificate Status.</p>
-                              <a href="#" class="btn btn-dark">Live Preview</a>
+                              <a href="kwaledicecestudentportal.com" class="btn btn-primary">Live Preview</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card text-dark">
+                            <img class="card-img-top" src="assets/dentodental.PNG" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">DENTO DENTAL CARE WEBSITE</h5>
+                              <p class="card-text">A landing Page and Blog for Dento Dental Clinic</p>
+                              <a href="#" class="btn btn-primary">Source Code</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card text-dark">
+                            <img class="card-img-top" src="assets/mindfulblog.PNG" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">THE MINDFUL BLOG</h5>
+                              <p class="card-text">A blog website for expression of ideas and education. Whatever comes to mind</p>
+                              <a href="#" class="btn btn-primary">Source Code</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card text-dark">
+                            <img class="card-img-top" src="assets/stockmanagementsystem.PNG" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">JEIDIS STOCK MANAGEMENT SYSTEM</h5>
+                              <p class="card-text">An inventory system for Jeidis Bakery to keep track of its stock</p>
+                              <a href="#" class="btn btn-primary">Source Code</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card text-dark mb-3">
+                            <img class="card-img-top" src="assets/PointOfSale.PNG" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">BAR & RESTAURANT POINT OF SALE</h5>
+                              <p class="card-text">A Point Of Sale system for a bar and restaurant to keep track of stock in the inventory, and records of sale transactions for the products in stock</p>
+                              <a href="#" class="btn btn-primary">Source Code</a>
                             </div>
                           </div>
                     </div>
@@ -129,11 +169,76 @@
             </div>
         </section>
 
+        <!-- CONTACT ME -->
+        <section id="contact bg-secondary">
+            <div class="container justify-content-center align-items-center">
+                <div class="text-center">
+                    <h2>Get In Touch</h2>
+                    <p class="lead">Ready to work? Fill out the form below and contact me directly</p>
+                </div>
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-6">
+                      <!-- All labels for a form need to have the "form-label" class -->
+                      <form>
+                        <label for="name" class="form-label">Your Name:</label>
+                        <!-- To include an icon next to the inputs/labels, we use a class called input group and place the icon in a span element
+                             The span element takes the class "input-group-text" -->
+                          <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                              <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="name">
+                          </div>
+          
+                        <label for="email" class="form-label">Email address:</label>
+                          <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                              <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="e.g.mario@gmail.com">
+                          </div>    
+                        <label for="query" class="form-label">Your Question:</label>
+                        <textarea id="query" class="form-control" cols="30" rows="10"></textarea>
+                        <div class="mb-4 mt-3">
+                          <button class="btn btn-primary">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+        </section>
 
-
+        <!-- FOOTER -->
+        <footer class="bg-dark pt-4">
+            <div class="container">
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center justify-content-center">
+              
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-li mx-1">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-dribbble mx-1">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+                <!-- Social buttons -->
+              </div>
+              <!-- Footer Elements -->
+              <!-- Copyright -->
+              <div class="footer-copyright text-center text-light py-3">© 2021 Copyright:
+                <a href="#">EUGENE KWAKA</a>
+              </div>
+        </footer>
     </main>
-
-    </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
