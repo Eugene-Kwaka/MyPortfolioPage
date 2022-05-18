@@ -204,7 +204,7 @@
                 <div class="row justify-content-center my-5">
                     <div class="col-lg-6">
                       <!-- All labels for a form need to have the "form-label" class -->
-                      <form>
+                      <form class="contact" metthod="POST" data-netlify="true">
                         <label for="name" class="form-label">Your Name:</label>
                         <!-- To include an icon next to the inputs/labels, we use a class called input group and place the icon in a span element
                              The span element takes the class "input-group-text" -->
@@ -212,7 +212,7 @@
                             <span class="input-group-text">
                               <i class="bi bi-person-fill"></i>
                             </span>
-                            <input type="text" class="form-control" id="name">
+                            <input type="text" class="form-control" id="name" name="name" >
                           </div>
           
                         <label for="email" class="form-label">Email address:</label>
@@ -220,12 +220,12 @@
                             <span class="input-group-text">
                               <i class="bi bi-envelope-fill"></i>
                             </span>
-                            <input type="email" class="form-control" id="email" placeholder="e.g.youremail@gmail.com">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="e.g.youremail@gmail.com">
                           </div>    
                         <label for="query" class="form-label">Your Question:</label>
-                        <textarea id="query" class="form-control" cols="30" rows="10"></textarea>
+                        <textarea id="query" class="form-control" cols="30" rows="10" name="query"></textarea>
                         <div class="mb-4 mt-3">
-                          <button class="btn btn-primary">Submit</button>
+                          <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                       </form>
                     </div>
