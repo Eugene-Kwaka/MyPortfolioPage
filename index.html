@@ -204,7 +204,7 @@
                 <div class="row justify-content-center my-5">
                     <div class="col-lg-6">
                       <!-- All labels for a form need to have the "form-label" class -->
-                      <form class="contact" metthod="POST" data-netlify="true">
+                      <form class="contact" action="POST" data-netlify="true">
                         <label for="name" class="form-label">Your Name:</label>
                         <!-- To include an icon next to the inputs/labels, we use a class called input group and place the icon in a span element
                              The span element takes the class "input-group-text" -->
@@ -224,6 +224,9 @@
                           </div>    
                         <label for="query" class="form-label">Your Question:</label>
                         <textarea id="query" class="form-control" cols="30" rows="10" name="query"></textarea>
+                          <div class="field">
+                            <div data-netlify-recaptcha="true"></div>
+                          </div>
                         <div class="mb-4 mt-3">
                           <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
